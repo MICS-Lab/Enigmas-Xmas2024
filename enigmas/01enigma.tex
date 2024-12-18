@@ -7,6 +7,7 @@
 \usepackage{amsthm}
 %for images
 \usepackage{graphicx}
+\usepackage{tikzpagenodes}
 %for color
 \usepackage{xcolor}
 %for title
@@ -22,6 +23,12 @@
 
 \begin{document}
 	\maketitle
+	\begin{tikzpicture}[remember picture,overlay,shift={(current page.north east)}]
+		\node[anchor=north east,xshift=-1cm,yshift=0.9cm]{\includegraphics[width=3.5cm]{01MICS_drill.png}};
+	\end{tikzpicture}
+	\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
+	\node[anchor=north west,xshift=1cm,yshift=1.5cm]{\includegraphics[width=3.5cm]{01xmas_ball.png}};
+	\end{tikzpicture}
 	
 	It was the holiday season, and Gabriel (artistic director of the MICS) had taken on the joyful task of decorating the lab’s Christmas tree.
 	This wasn’t just any tree—it was a masterpiece of creativity, blending festive cheer with scientific flair.
@@ -43,14 +50,14 @@
 	\textit{Give your answer in $mm^3$ rounded to the closest integer.}
 	
 	\begin{center}
-		\includegraphics[height=150pt]{01xmas_pearl.png}\\
+		\includegraphics[height=120pt]{01xmas_pearl.png}\\
 		Diagram of the Christmas ball with a hole.
 	\end{center}
 	
 	\begin{center}
-		\includegraphics[height=200pt]{01xmas_ball.png}
-		\includegraphics[height=150pt]{01MICS_drill.png}\\
-		Christmas ball and MICS drill.
+		\includegraphics[height=210pt]{01gabriel_bis.png}
+		\includegraphics[height=210pt]{01gabriel.png}\\
+		Gabriel proudly showing his "MICS" branded drill.
 	\end{center}
 	
 	\underline{Hint 1:} Use cylindrical coordinates, and $dV = r\ dr\, d\theta\, dz$.\\
