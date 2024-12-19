@@ -7,3 +7,5 @@ enigmas:
     description: Mathematicians' Digital Clock
   - answer: 50
     description: Elves' Sleigh Seats
+  - answer: 65536
+    description: Best Power of Two
