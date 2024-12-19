@@ -15,3 +15,5 @@ enigmas:
     description: Santa's Gift Distribution Order
   - answer: 2
     description: Inès's Linear Regression
+  - answer: snake lemma
+    description: Math in Cinema
