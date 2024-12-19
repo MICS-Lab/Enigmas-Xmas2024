@@ -9,3 +9,6 @@ enigmas:
     description: Elves' Sleigh Seats
   - answer: 65536
     description: Best Power of Two
+  - answer: 42
+    description: Elves' Shuffling
+
