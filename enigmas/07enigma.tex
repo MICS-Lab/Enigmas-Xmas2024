@@ -1,0 +1,43 @@
+\documentclass[a4paper, top=10mm]{article}
+%for writing from the top
+\usepackage{fullpage}
+%for math
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+%for images
+\usepackage{graphicx}
+%for color
+\usepackage{xcolor}
+%for title
+\title{\textbf{\huge{Santa's Gift Distribution Order}}}
+\author{Enigma n\textsuperscript{o}6}
+\date{19\textsuperscript{th} December 2024}
+
+\newtheorem*{hint}{Hint}
+
+\addtolength{\voffset}{-2cm}
+\addtolength{\textheight}{5cm}
+
+
+\begin{document}
+	\maketitle
+	
+	Santa is planning the perfect gift distribution for a family gathering. He has 10 gifts for kids and 10 gifts for adults, and he needs to arrange the order in which the gifts are handed out.
+	
+	However, there’s one important rule: at no point during the distribution should the number of adult gifts given out exceed the number of kids’ gifts.
+	
+	For example, a valid distribution order could be: Kids, Kids, Adults, Kids, Adults, Adults..., while an invalid one might start as: Adults, Adults, Kids....
+	
+	How many different valid ways can Santa arrange the distribution of the 20 gifts under this rule?
+	
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{07presents.png}
+	\end{center}
+	
+	% Answer: 16796
+	% (catalan number C_10)
+	% https://oeis.org/A000108
+	% https://en.wikipedia.org/wiki/Catalan_number#Applications_in_combinatorics
+	
+\end{document}
