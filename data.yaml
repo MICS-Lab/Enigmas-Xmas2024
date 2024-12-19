@@ -11,4 +11,5 @@ enigmas:
     description: Best Power of Two
   - answer: 42
     description: Elves' Shuffling
-
+  - answer: 16796
+    description: Santa's Gift Distribution Order
